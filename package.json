@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "generate": "hexo clean && hexo generate",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d public",
     "serve": "hexo server -s",
     "test": "nightwatch",
     "lint": "eslint tests --ext .js"
