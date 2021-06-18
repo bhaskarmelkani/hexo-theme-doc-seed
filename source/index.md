@@ -1,7 +1,7 @@
 title: hexo-sstheme-doc-seed
 ---
 
-# hexo-theme-doc-seed 123
+# hexo-theme-doc-seed
 
 This project is a skeleton for a documentation website using [Hexo](https://hexo.io) and [hexo-theme-doc](https://github.com/zalando-incubator/hexo-theme-doc).   
 You can use it to quickly bootstrap your documentation website.
