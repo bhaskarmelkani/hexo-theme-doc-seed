@@ -1,4 +1,4 @@
-title: hexo-sstheme-doc-seed
+title: hexo-theme-doc-seed
 ---
 
 # hexo-theme-doc-seed
