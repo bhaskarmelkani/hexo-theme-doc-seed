@@ -1,8 +1,15 @@
 {
   "name": "hexo-theme-doc-seed",
   "version": "0.1.0",
+  "scripts": {
+    "generate": "hexo clean && hexo generate",
+    "deploy": "NODE_DEBUG=gh-pages node deploy.js",
+    "serve": "hexo server -s",
+    "test": "nightwatch",
+    "lint": "eslint tests --ext .js"
+  },
   "hexo": {
-    "version": "3.3.9"
+    "version": "3.9.0"
   },
   "dependencies": {
     "hexo": "^3.3.8",
@@ -12,6 +19,6 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-sass": "^0.3.2",
     "hexo-server": "^0.2.1",
-    "hexo-theme-doc": "^0.1.0"
+    "hexo-theme-doc": "^1.0.0-rc.1"
   }
 }
