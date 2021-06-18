@@ -20,5 +20,12 @@
     "hexo-renderer-sass": "^0.3.2",
     "hexo-server": "^0.2.1",
     "hexo-theme-doc": "^1.0.0-rc.1"
+  },
+  "devDependencies": {
+    "chromedriver": "^80.0.2",
+    "eslint": "^4.11.0",
+    "gh-pages": "^1.0.0",
+    "nightwatch": "^0.9.16",
+    "selenium-server": "^3.8.1"
   }
 }
